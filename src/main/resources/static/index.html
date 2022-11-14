@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Kartu Tanda Mahasiswa</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <br>
+    <form action="/save" method="post" enctype="multipart/form-data">
+        <fieldset>
+        <legend>Kartu Tanda Mahasiswa</legend>
+        <p>
+            <label>Nama Mahasiswa:</label>
+            <input type="text" name="nama" placeholder="Nama Mahasiswa" />
+        </p>
+        <p>
+            <label>Nomor Induk Mahasiswa:</label>
+            <input type="text" name="nim" placeholder="Nomor Induk Mahasiswa" />
+        </p>
+        <p>
+            <label>Program Studi:</label>
+            <input type="text" name="jurusan" placeholder="Program Studi" />
+        </p>
+        <p>
+            <label>Foto Mahasiswa:</label>
+            <input type="file" name="gambar"/>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Save" />
+        </p>
+        </fieldset>
+            
+            
+        </form>
+    </body>
+</html>
